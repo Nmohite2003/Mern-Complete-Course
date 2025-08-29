@@ -25,12 +25,12 @@
 //    console.log(arr);
    
    
-  const nums = [10,20,30,40,50];
+  const nums = [10,20,30,40,50,60];
   
   for(let i=0;i<nums.length;i++){
     let temp = nums[i];
     nums[i] = nums[nums.length-1];
     nums[nums.length-1] = temp;
+    console.log(nums);
   }
   
-  console.log(nums);
