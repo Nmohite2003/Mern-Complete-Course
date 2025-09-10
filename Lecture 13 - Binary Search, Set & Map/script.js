@@ -202,13 +202,13 @@
 
 // // cheking if key is present or not
 
-// console.log("checking if `name1` is presnt or not ",map.has("name1"));
+// console.log("checking if name1 is presnt or not ",map.has("name1"));
 
 // // getting the value of specific key 
-// console.log("value of `name2` key:",map.get("name2"));
+// console.log("value of name2 key:",map.get("name2"));
 
 // // deleting a key in map
-// console.log("value of `name2` key:",map.delete("name22"));
+// console.log("value of name2 key:",map.delete("name22"));
 
 // const mapArr = [...map];
 // console.log(mapArr);
@@ -222,13 +222,13 @@
 
 // // find intersection and union of array
 
- let arr = [1,2,5,6], arr1 = [2,5,6,3,1,3];
+let arr = [1,2,5,6], arr1 = [2,5,6,3,1,3];
 
- //intersection : 1,2,5,6
- //union : 1,2,3,4,5,6
+//intersection : 1,2,5,6
+//union : 1,2,3,4,5,6
 
- //const unionArr = [...new Set([...arr,...arr1])];
+//const unionArr = [...new Set([...arr,...arr1])];
 
- const unionSet = new Set([...arr, ...arr1]);
- const unionArr = [...unionSet];
- console.log({unionArr});
+const unionSet = new Set([...arr, ...arr1]);
+const unionArr = [...unionSet];
+console.log({unionArr});
