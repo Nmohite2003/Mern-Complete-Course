@@ -77,7 +77,7 @@ function binaryExponentitation(x,y){
     let temp = binaryExponentitation(x, Math.floor(y/2));
     return temp*temp*x ** (y%2);
 }
-console.log(binaryExponentitation(x,y));
+console.log(binaryExponentitation(x,y)); 
 
 
 
