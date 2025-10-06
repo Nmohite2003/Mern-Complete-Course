@@ -40,6 +40,8 @@ console.log(mergeTwoArrays(arr1,arr2));
 
 // merge sort
 
+// O(N logN)
+
 let arr = [3,7,1,5,8,2,4];
 
 function mergeSort(arr){
@@ -72,6 +74,27 @@ function mergArrays(left, right){
 
 console.log(mergeSort(arr));     
 
+
+// insertion sort 
+
+let a = [1,2,7,9,6];
+let n =  a.length; 
+
+function insertionSort(a, n) {
+     let j = a[n - 1];
+     let i = n - 2;
+ 
+     while (i >= 0 && a[i] > j) {
+         a[i + 1] = a[i];
+         i--;
+     }
+ 
+     a[i + 1] = j;
+    return a;
+    
+ 
+ }
+ console.log(insertionSort(a,n))
 
 
 
