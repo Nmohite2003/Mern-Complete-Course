@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="enter your name" required autocomplete="name" />
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="enter your email" required autocomplete="email" />
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input id="number" name="number" type="number" placeholder="enter without country code" required autocomplete="number" />
+        <br>
+        <br>
+        <label for="date">Date</label>
+        <input type="date">
+        <br>
+        <br>
+        <label for="password">password</label>
+        <input type="password" placeholder="atleast 6 digits" required autocomplete="pass">
+        <br>
+        <br>
+       
+       <label for="country">country</label>
+       <select name="country" id="country">
+       <option value="Select a country"></option>
+       <option >india</option>
+       <option >US</option>
+       <option >West Indies</option>
+       </select>
+    <br>
+    <br>
+
+    <label for="cities">Cites</label>
+       <select name="country" id="country">
+       <option value="Select a country"></option>
+       <option >pune</option>
+       <option >mumbai</option>
+       <option >Shivaji Nagar</option>
+       </select>
+    <br>
+    <br>
+        
+  <button type="submit">Submit</button>
+        
+    </form>
+<br>
+<br>
+<h2>List of Fruits</h2>
+  <p id="mango" data-products-id="abc1" data-price="10">
+    Mango - <span>10</span>
+  </p>
+  <p id="Apple" data-products-id="abc1" data-price="40">
+    Apple - <span>40</span>
+  </p>
+  <p id="Banan" data-products-id="abc1" data-price="50">
+    Banana - <span>50</span>
+  </p>
+  <script>
+    let mango = document.getElementById("mango");
+    console.log(mango.dataset.productId);
+    mango.dataset.color="pink";
+    console.log();
+  </script>
+ 
+</body>
+</html>
