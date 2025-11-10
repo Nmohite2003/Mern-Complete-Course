@@ -1,0 +1,225 @@
+/* body {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* .grid{
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid aquamarine;
+    display: grid;
+     /* grid-template-columns: 100px 100px; 
+     /* grid-template-columns: 50% 200px 100px; 
+     grid-template-columns:repeat(3,1fr);
+     grid-template-rows:repeat(3,1fr);
+     
+  } */
+
+
+
+/* .red {
+    background-color: red;
+    grid-column-start:1;
+    grid-column-end:4;
+   
+   
+  }
+  .blue {
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+   
+  }
+  .green {
+    background-color: green;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+   
+    
+  }
+  .orange {
+    background-color: orange;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+  } */
+
+
+  /* .red {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .blue {
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .green {
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .orange {
+    background-color: orange;
+    grid-row: 3/4;
+    grid-column: 2/4;
+  } */
+
+  /* CSS GRID */
+
+   /* body {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid{
+    display: grid;
+      width: 100%;
+      height: 100%;
+     gap: 1px;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto 2fr 1fr auto;
+      grid-template-areas:
+        "header header"
+        "main-content sidebar"
+        "twin1 twin2"
+        "footer footer";
+
+  }
+
+
+  
+  .Header {
+    background-color: blue;
+    grid-area: header;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+  }
+  .main-content {
+    background-color: green;
+    grid-area: main-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+  }
+  .sidebar{
+    background-color: blueviolet;
+    grid-area: sidebar;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+
+  }
+  .twin1{
+    background-color: orange;
+    grid-area: twin1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    
+
+  }
+
+  .twin2{
+    background-color: orange;
+    grid-area: twin2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .footer{
+    grid-area: footer;
+    background-color: #031521;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold
+  }  */
+
+ /* Using Flex BOX */
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    border: px solid aquamarine;
+  }
+
+ 
+  .red {
+    background-color: red;
+    flex: 0 0 15%;
+    display: flex;
+    font-size: 10px;
+  }
+
+  
+  .middle {
+    display: flex;
+    flex:3 ;
+  }
+
+  .blue {
+    background-color: blue;
+    flex: 0 0 25%;
+    display: flex;
+    font-size: 10px;
+  }
+
+  .green {
+    background-color: green;
+    flex: 1;
+    display: flex;
+   font-size: 10px;
+  }
+
+ 
+  .orange {
+    background-color: brown;
+    flex: 0 0 15%;
+    display: flex;
+    font-size: 0px;
+  }
+
+
+
+ 
+
+
+
+  

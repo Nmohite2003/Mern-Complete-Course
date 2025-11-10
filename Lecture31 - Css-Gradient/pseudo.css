@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div > div{
+width: 300px;
+height: 400px;
+background-color: yellow;
+margin: 100px auto;
+}
+
+div > div:first-child{
+    background-color: red;
+}
+
+.child:active{
+    background-color: beige;
+}
+.child:hover{
+    border:1px solid red;
+}
+.elements p::before{
+    content: Nilesh;
+}
+.elements p::first-letter{
+    content:"";
+    color: brown;
+}
+
+.elements p::first-line {
+    content: '';
+    color: aquamarine;
+}
+

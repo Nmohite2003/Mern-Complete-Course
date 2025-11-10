@@ -1,0 +1,22 @@
+
+
+body{
+  background-color: rgb(124, 183, 193);
+  display: flex;
+   justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    background-color: #d2bdbd;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.btn{
+    color: blue;
+}
+.rtn{
+    color: green;
+}

@@ -1,0 +1,43 @@
+*::after
+*::before
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 100px;
+}
+
+.container .box{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    background:linear-gradient(red, blue, aqua);
+    text-align: center;
+    border: solid black;
+    font-size: 2rem;
+}
+body:hover .box{
+    /* transform: scale(0.4, 1.5); */
+    transform: rotate(45deg); /*will rotate clockwise by 45 deg  */
+    transform: rotate(-45deg); /*will rotate anticlockwise by 45 deg  */
+
+    transform: skew(30deg,45deg);
+
+    transform: translate(400px);
+    transform: translate(400px);
+
+
+    transform: rotate(90deg) translate(200px);
+    transform: translate(200px) rotate(90deg);
+}
+
+/* 
+ x -> -ve -> left
+ x -> +ve -> right
+ y -> +ve -> down
+ y -> -ve -> top 
+
+ */

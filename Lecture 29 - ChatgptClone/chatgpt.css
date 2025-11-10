@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: rgb(83, 75, 77);
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 30px;
+    border-right: 1px solid white;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+   padding-bottom: 2px;
+   margin-bottom: 5px;
+   width: 100%;
+   font-size: 1rem;
+}
+#setting{
+ position: fixed;
+ bottom: 20px;
+ left: 20px;
+ width: calc(20% - 40px);
+}
+
+.content{
+  display: grid;
+ grid-template-rows: 1fr 10fr 1.5fr;
+}
+.title{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    /* font-size: 40px; */
+}
+.suggestions{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+
+
+}
+.suggestion{
+    border: 1px solid white;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+.chat{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   
+}
+.chat .text{
+    
+    width: 50%;
+    padding: 10px;
+}
+ .btn{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: inherit;
+    border: 1px solid  white;
+    color: white;
+}
+/* .text{
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+} */

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+
+.container{
+     height: 100%;
+     width: 100%;
+     background-image: url(real7.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.plane{
+     height: 100px;
+     width: 100px;
+     background-image: url(plane.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: absolute;
+     left: 5%;
+     bottom: 5%;
+}
+body:hover
